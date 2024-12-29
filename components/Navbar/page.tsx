@@ -13,24 +13,24 @@ const Navbar = () => {
       <div className={josefin1.className}>
         <div className="flex justify-around content-center items-center ">
 
-          <div className="flex items-center justify-center">
-            <div className="h-[16px] w-[16px]">
-              <img src="/Vector.svg" alt="Message" />
+          <div className="flex items-center justify-center gap-4 ">
+            <div className="h-[16px] w-[16px] smhidden mdhidden">
+              <img src="/Vector.svg" alt="Message"/>
             </div>
             <div className={josefin1.className}>
               <div className="w-[171px] h-[16px] size-4 leading-4">mhhasanul@gmail.com</div>
             </div>
             <div className="flex items-center justify-center pl-[30px]">
-              <div className="h-[16px] w-[16px]">
-                <img src="/phone.svg" alt="Message" />
+              <div className="h-[16px] w-[16px] smhidden mdhidden">
+                <img src="/phone.svg" alt="Message"/>
               </div>
               <div className={josefin1.className}>
-                <div className="w-[97px] h-[16px] size-4 leading-4 ">(12345)67890</div>
+                <div className="w-[97px] h-[16px] size-4 leading-4">(12345)67890</div>
               </div>
             </div>
           </div>
 
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center justify-between gap-3  smhidden">
            
             <div className="flex items-center justify-center gap-1">
              <div className={josefin1.className}>English</div><div/>

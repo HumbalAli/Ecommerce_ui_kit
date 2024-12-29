@@ -5,3 +5,76 @@
 .bimage{
     background-image: url('/backGround.svg');
 }
+
+
+@media (max-width: 640px) {
+    .smhidden {
+        display: none;
+    }
+    .smbg1{
+        background-color: rgb(251, 205, 212);
+    }
+    .smtext{
+        font-size: 30px;
+    }
+    .smpaddown1{
+        padding-top: 70px;
+    }
+    .smpadleft1{
+        padding-right: 200px;
+    }
+    .smtext2{
+        font-size: 13px
+    }
+    .smpadright1{
+        padding-left: 30px;
+    }
+    .smpadleft2{
+        padding-right: 500px;
+    }
+    .smscreen{
+        margin: 640px;
+    }
+    .smcenter{
+        justify-content: center;
+        justify-items: center;
+        flex: auto;
+    }
+    .smpadtop{
+        padding-top: 100px;
+    }
+    .smpadtop2{
+        padding-top: 250px;
+    }
+    .smpadbottom{
+        padding-bottom: 300px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .mdhidden {
+        display: none;
+    }
+    .mdpadleft1{
+        padding-left: 200px;
+    }
+    .padleft1{
+        padding-left: 70px;
+    }
+    .mdtext1{
+        font-size:10px ;
+    }
+    .mdtext2{
+        font-size: 15px;
+    }
+    .mdpadleft2{
+        padding-left: 50px;
+    }
+    
+}
+
+
+@media(max-width: 1280px){
+   
+}

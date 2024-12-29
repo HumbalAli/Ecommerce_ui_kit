@@ -3,7 +3,6 @@ import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import Latestblog from '@/components/LatestBlog/Latestblog'
-import Account from '@/app/Account/page'
 import Navbar from '@/components/Navbar/page'
 import Section2 from '@/components/Section2/Section2'
 import Section2pt2 from '@/components/Section2/Section2pt2'
@@ -16,7 +15,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='smscren'>
   <Navbar/>
   <br/>
   <Header/>

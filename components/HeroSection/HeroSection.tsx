@@ -11,28 +11,28 @@ const josefin1 = Josefin_Sans({
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#F2F0FF] w-auto h-[650px]">
-      <div className="flex justify-center items-center">
-       <div className="flex justify-center items-center">
-        <div><img src="/lamp.svg" alt="lamp" width={387} height={387} /></div>
+    <div className="bg-[#F2F0FF] w-auto h-[650px] smbg1 ">
+      <div className="flex justify-center items-center smpadright1">
+       <div className="flex justify-center items-center ">
+        <div><img src="/lamp.svg" alt="lamp" width={387} height={387} className="smhidden mdhidden" /></div>
         <div className="items-center justify-center content-center">
-          <div className="text-[#FB2E86]">
+          <div className="text-[#FB2E86] pl-3">
             <p className={lato2.className}>Best Furniture For Your Castle....</p>
           </div>
-          <div className="text-[53px] w-[644px] h-[140px] leading-[81.98px]">
+          <div className="text-[53px] smtext w-[644px] h-[140px] leading-[81.98px] pl-3">
             <p className={josefin1.className}>New Furniture Collection Trends in 2020</p>
           </div>
           <div>
-            <p>
+            <p className="pl-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
               est adipiscing in phasellus non in justo.
             </p>
           </div>
-          <div className=" p-7"><div className={josefin1.className}><button className=" w-[83px] h-[17px] bg-[#FB2E86] text-white">Shop Now</button></div></div>
+          <div className=" p-7"><div className={josefin1.className}><button className=" w-[90px] h-[20px] bg-[#FB2E86] text-white text-center">Shop Now</button></div></div>
         </div>
     </div>
         <div>
-        <div className="h-[689px]"><img src="sofa1.svg" alt="sofa"/></div>
+        <div className="h-[689px]"><img src="sofa1.svg" alt="sofa" className="smhidden"/></div>
       </div>
 
       </div>

@@ -21,20 +21,20 @@ const Footer = () => {
       <div className='h-[34px] w-[98px] leading-[34px] text-[34px] text-[#0D0E43]'><p className={josefin2.className}>Hekto</p></div>
   </div>
   <div className='col-start-2 col-end-4 row-start-4 flex w-[377px] h-[44px] justify-stretch '>
-   <div> <input placeholder='Enter Email Address' className='w-[270px] h-[44px]' /> </div>
+   <div> <input placeholder='Enter Email Address' className='w-[270px] h-[44px]'/> </div>
    <div className='bg-[#FB2E86] w-[100px] text-white justify-center flex items-center'> <button className={robot1.className}>Sign Up</button> </div>
  </div>
 
-  <div className='col-start-2 col-end-4 row-start-6 flex'>
-<div className='text-[#8A8FB9] text-[16px] leading-[19.2px]'><p className={lato1.className}>Contact</p></div>
+  <div className='col-start-2 col-end-4 row-start-6 flex '>
+<div className='text-[#8A8FB9] text-[16px] leading-[19.2px]'><p className={lato1.className}>Location</p></div>
   </div>
 
   <div className='col-start-2 col-end-6 justify-center items-center row-end-8 flex'>
 <div className='text-[#8A8FB9] text-[16px] leading-[19.2px]'><p className={lato1.className}>17 Princess Road, London, Greater London NW1 8JR, UK</p></div>
   </div>
 
-  <div className='row-start-3 text-[22px]  leading-[25.78px] col-start-6 col-end-7'><p className={josefin2.className}>Category</p></div>
-  <div className=' gap-8 col-start-6 col-end-8 row-start-4'><ul className='text-[#8A8FB9] gap-10'>
+  <div className='row-start-3 text-[22px]  leading-[25.78px] col-start-6 col-end-7 smhidden mdhid mdpadleft2'><p className={josefin2.className}>Category</p></div>
+  <div className=' gap-8 col-start-6 col-end-8 row-start-4'><ul className='text-[#8A8FB9] gap-10 smhidden mdpadleft2'>
     <li>Laptops & Computers</li>
     <br/>
     <li>Cameras & Photography</li>
@@ -43,12 +43,12 @@ const Footer = () => {
     <br/>
     <li>Video Games & Consoles</li>
     <br/>
-    <li>Waterproof Headphones</li>
+    <li className='mdhidden'>Waterproof Headphones</li>
     <br/>
     </ul></div>
 
-  <div className='row-start-3 text-[22px]  leading-[25.78px] col-start-8 col-end-10'><p className={josefin2.className}>Customer Care</p></div>
-  <div className=' gap-8 col-start-8 col-end-10 row-start-4'><ul className='text-[#8A8FB9] gap-10'>
+  <div className='row-start-3 text-[22px]  leading-[25.78px] col-start-8 col-end-10 smhidden mdhidden'><p className={josefin2.className}>Customer Care</p></div>
+  <div className=' gap-8 col-start-8 col-end-10 row-start-4'><ul className='text-[#8A8FB9] gap-10 mdhidden smhidden'>
   <li><Link href="/Account" target="_blank">My Account</Link></li>
     <br/>
     <li>Discount</li>
@@ -72,7 +72,7 @@ const Footer = () => {
     <br/>
     <li>Visual Composer Elements</li>
     <br/>
-    <li>WooCommerce Pages</li>
+    <li className='smhidden'>WooCommerce Pages</li>
     <br/>
     </ul></div>
 
