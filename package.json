@@ -6,9 +6,13 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "migrate": "node script/migrationData.mjs"
   },
   "dependencies": {
+    "@sanity/client": "^6.25.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
