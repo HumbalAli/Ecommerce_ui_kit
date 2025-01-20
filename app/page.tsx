@@ -12,6 +12,7 @@ import TopCategory from '@/components/topCategory/TopCategory'
 import Treanding from '@/components/TrendingProd/Treanding'
 
 import React from 'react'
+import ProductCards from './Products/page'
 
 const page = () => {
   return (
@@ -35,6 +36,7 @@ const page = () => {
   <Section4/>
   <br/>
   <Latestblog/>
+  <ProductCards/>
 <Footer/>
     </div>
   )
