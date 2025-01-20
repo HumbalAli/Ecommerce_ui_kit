@@ -10,15 +10,21 @@
     "migration": "node script/import-data.mjs"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.473.0",
     "next": "^15.1.4",
     "next-sanity": "^9.8.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^19.0.0",
     "sanity": "^3.70.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",

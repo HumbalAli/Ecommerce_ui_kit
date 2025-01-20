@@ -1,3 +1,4 @@
+import React from 'react'
 import Discount from '@/components/Discount/Discount'
 import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
@@ -10,9 +11,7 @@ import Section3 from '@/components/Section3/Section3'
 import Section4 from '@/components/section4/Section4'
 import TopCategory from '@/components/topCategory/TopCategory'
 import Treanding from '@/components/TrendingProd/Treanding'
-
-import React from 'react'
-import ProductCards from './Products/page'
+import ProductDetails from './Products/[id]/page'
 
 const page = () => {
   return (
@@ -36,7 +35,7 @@ const page = () => {
   <Section4/>
   <br/>
   <Latestblog/>
-  <ProductCards/>
+  <ProductDetails/>
 <Footer/>
     </div>
   )
