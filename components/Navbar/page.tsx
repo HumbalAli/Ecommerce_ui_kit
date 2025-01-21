@@ -46,7 +46,7 @@ const Navbar = () => {
             
            
             <div className="flex items-center justify-center gap-1">
-            <div className={josefin1.className}><li><Link href="/Account" target="_blank">Login</Link></li></div>
+            <div className={josefin1.className}><li><Link href="/Account">Login</Link></li></div>
               <div><img src="/person.svg" alt="person"/></div>
             </div>
             

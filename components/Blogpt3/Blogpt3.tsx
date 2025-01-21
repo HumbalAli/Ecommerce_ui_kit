@@ -35,7 +35,7 @@ const page = () => {
         <div className="h-[23px] w-[360px] col-start-2 row-start-8 flex gap-3 smhidden ">
           <div className="items-center justify-center flex">
             <span>
-              <img src="\pen.svg" width="16px" height="16px" />
+              <img src="\pen.svg" width="16px" height="16px" alt="img" />
             </span>
             <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] ">
               <p className={josefin1.className}>Surf Auxion</p>
@@ -43,7 +43,7 @@ const page = () => {
           </div>
           <div className="items-center justify-center flex">
             <span>
-              <img src="\calendar.svg" width="16px" height="16px" />
+              <img src="\calendar.svg" loading='lazy' width="16px" height="16px"  alt="img"/>
             </span>
             <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] font-semibold">
               <p className={lato1.className}>Aug 09 2020</p>

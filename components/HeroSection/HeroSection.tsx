@@ -14,7 +14,7 @@ const HeroSection = () => {
     <div className="bg-[#F2F0FF] w-auto h-[650px] smbg1 ">
       <div className="flex justify-center items-center smpadright1">
        <div className="flex justify-center items-center ">
-        <div><img src="/lamp.svg" alt="lamp" width={387} height={387} className="smhidden mdhidden" /></div>
+        <div><img src="/lamp.svg" alt="lamp" loading='lazy' width={387} height={387} className="smhidden mdhidden" /></div>
         <div className="items-center justify-center content-center">
           <div className="text-[#FB2E86] pl-3">
             <p className={lato2.className}>Best Furniture For Your Castle....</p>

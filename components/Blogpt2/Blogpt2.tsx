@@ -34,7 +34,7 @@ const page = () => {
         <div className="h-[23px] w-[360px] col-start-2 row-start-8 flex gap-3 smhidden ">
           <div className="items-center justify-center flex">
             <span>
-              <img src="\pen.svg" width="16px" height="16px" />
+              <img src="\pen.svg" width="16px" height="16px"  alt="img"/>
             </span>
             <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] ">
               <p className={josefin1.className}>Surf Auxion</p>
@@ -42,7 +42,7 @@ const page = () => {
           </div>
           <div className="items-center justify-center flex">
             <span>
-              <img src="\calendar.svg" width="16px" height="16px" />
+              <img src="\calendar.svg" width="16px"  loading='lazy' height="16px"  alt="img"/>
             </span>
             <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] font-semibold">
               <p className={lato1.className}>Aug 09 2020</p>
@@ -53,21 +53,21 @@ const page = () => {
         <div className="col-start-10 col-end-13 items-center p-4 justify-center row-start-2">
           <div className="w-[250px] h-[270px]">
             <div className="w-[250px] h-[51px] py-1 flex">
-              <img src="\blog05.svg" />
+              <img src="\blog05.svg" alt="img" />
               <p className={josefin1.className}>
                 It is a long established fact
               </p>
               <p className="text-gray-400">Aug 09 2020</p>
             </div>
             <div className="w-[250px] h-[51px] py-1 flex">
-              <img src="\blog06.svg" />
+              <img src="\blog06.svg"  alt="img"/>
               <p className={josefin1.className}>
                 It is a long established fact
               </p>
               <p className="text-gray-400">Aug 09 2020</p>
             </div>
             <div className="w-[250px] h-[51px] py-1 flex">
-              <img src="\blog07.svg" />
+              <img src="\blog07.svg"  alt="img"/>
               <p className={josefin1.className}>
                 It is a long established fact
               </p>
@@ -105,7 +105,7 @@ const page = () => {
           <div className="w-[267px] h-[282px]">
             <div className="flex gap-2">
               <div className={lato1.className}>
-                <img src="blog08.svg" />
+                <img src="blog08.svg" alt="img" />
                 <p className="text-center text-[#151875] leading-[16.8px] text-[14px] pt-2">
                   Duis lectus est.
                 </p>
@@ -114,7 +114,7 @@ const page = () => {
                 </p>
               </div>
               <div className={lato1.className}>
-                <img src="blog09.svg" />
+                <img src="blog09.svg"  alt="img"/>
                 <p className="text-center text-[#151875] leading-[16.8px] text-[14px] pt-2">
                   Sed placerat.
                 </p>
@@ -126,7 +126,7 @@ const page = () => {
 
             <div className="flex pt-2 gap-2">
               <div className={lato1.className}>
-                <img src="blog010.svg" />
+                <img src="blog010.svg"  alt="img"/>
                 <p className="text-center text-[#151875] leading-[16.8px] text-[14px] pt-2">
                   Netus proin.
                 </p>
@@ -135,7 +135,7 @@ const page = () => {
                 </p>
               </div>
               <div className={lato1.className}>
-                <img src="blog011.svg" />
+                <img src="blog011.svg" alt="img" />
                 <p className="text-center text-[#151875] leading-[16.8px] text-[14px] pt-2">
                   Platea in.
                 </p>
@@ -152,7 +152,7 @@ const page = () => {
               <p className={josefin1.className}>Follow</p>
             </div>
             <div>
-              <img src="socialgroup1.svg"/>
+              <img src="socialgroup1.svg" alt="img"/>
             </div>
           </div>
         </div>

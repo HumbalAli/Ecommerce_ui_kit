@@ -50,7 +50,7 @@ const Account = () => {
       </div>
       </div>
       </div>
-     <div className="justify-center items-center flex"> <img src="section2.svg"/></div>
+     <div className="justify-center items-center flex"> <img src="section2.svg" alt="img"/></div>
       <Footer/>
     </div>
   );

@@ -13,10 +13,10 @@ const Treanding = () => {
     <div className='h-[800px] grid grid-cols-6 grid-rows-5'>
   <div className='text-[#1A0B5B] col-start-3 col-end-7 justify-center items-center flex w-[367px] text-[42px] leading-[49.22px] smtext'><p className={josefin1.className}>Trending Products</p></div>
       <div className='row-start-2 row-end-4 col-start-1 col-end-10 flex items-center justify-evenly'>
-    <div><img src='/Trend1.svg' alt='sofa1' className='w-[270px] h-[350px] cursor-pointer smhidden hover:w-[300px]'/></div>
-    <div><img src='/Trend2.svg' alt='sofa2' className='w-[270px] h-[350px] cursor-pointer smhidden hover:w-[300px]'/></div>
-    <div><img src='/Trend3.svg' alt='sofa3' className='w-[270px] h-[350px] cursor-pointer hover:w-[300px]'/></div>
-    <div><img src='/Trend4.svg' alt='sofa4' className='w-[270px] h-[350px] cursor-pointer hover:w-[300px]'/></div>
+    <div><img src='/Trend1.svg' alt='sofa1' loading="lazy"  className='w-[270px] h-[350px] cursor-pointer smhidden hover:w-[300px]'/></div>
+    <div><img src='/Trend2.svg' alt='sofa2' loading="lazy"  className='w-[270px] h-[350px] cursor-pointer smhidden hover:w-[300px]'/></div>
+    <div><img src='/Trend3.svg' alt='sofa3' loading="lazy"  className='w-[270px] h-[350px] cursor-pointer hover:w-[300px]'/></div>
+    <div><img src='/Trend4.svg' alt='sofa4' loading="lazy"  className='w-[270px] h-[350px] cursor-pointer hover:w-[300px]'/></div>
 </div>
 
 <div className='flex justify-around items-center gap-3 col-start-1 col-end-7 row-start-4 row-end-6'>
@@ -30,7 +30,7 @@ const Treanding = () => {
 
     <div className='col-start-1 col-end-4 row-start-1 row-end-3 text-[#151875] flex justify-center items-center'><div className={josefin1.className}>23% off in all products</div></div>
     <div className='col-start-1 col-end-3 row-start-2 row-end-3 text-[#FB2E86] underline font-semibold flex justify-center items-center '><div className={lato1.className}>View Collection</div></div>
-    <div className='col-start-3 col-end-7 row-start-3  flex justify-center items-center'><img src='cabinet.svg' alt='cabinet' width={213} height={207} /></div>
+    <div className='col-start-3 col-end-7 row-start-3  flex justify-center items-center'><img src='cabinet.svg'   loading='lazy' alt='cabinet' width={213} height={207} /></div>
 
 </div><div className='grid grid-rows-3 grid-cols-3 bg-[#FFF6FB] w-[600px] h-[270px]  '>
 

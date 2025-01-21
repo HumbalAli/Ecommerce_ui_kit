@@ -102,11 +102,11 @@ const page = () => {
 
         <div className="h-[23px] w-[360px] col-start-2 row-start-9 flex gap-3 smhidden ">
             <div className="items-center justify-center flex">
-                <span><img src="\pen.svg" width='16px' height='16px' /></span>
+                <span><img src="\pen.svg" width='16px' height='16px'  loading='lazy' alt="img"/></span>
                 <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] "><p className={josefin1.className}>Surf Auxion</p></span>
             </div>
             <div className="items-center justify-center flex">
-                <span><img src="\calendar.svg" width='16px' height='16px'/></span>
+                <span><img src="\calendar.svg"  loading='lazy' width='16px' height='16px' alt="img"/></span>
                 <span className="bg-[#FFE7F9] text-[#151875] rounded-md flex justify-center items-center w-[160px] h-[23px] font-semibold"><p className={lato1.className}>Aug 09 2020</p></span>
             </div>
 
@@ -116,10 +116,10 @@ const page = () => {
         <div className="col-start-10 col-end-13 items-center p-4 justify-center row-start-6">
             <div className="text-[22px] leading-[25.78px] text-[#151875]"><h6 className={josefin1.className}>Recent Post</h6></div>
             <div className="w-[250px] h-[270px]">
-                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog01.svg"/><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
-                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog02.svg"/><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
-                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog03.svg"/><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
-                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog04.svg"/><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
+                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog01.svg" alt="img" loading="lazy" /><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
+                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog02.svg" alt="img" loading="lazy" /><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
+                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog03.svg" alt="img" loading="lazy" /><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
+                <div className="w-[250px] h-[51px] py-1 flex"><img src="\blog04.svg" alt="img" loading="lazy" /><p className={josefin1.className}>It is a long established fact</p> <p className="text-gray-400">Aug 09 2020</p></div>
             </div>
         </div>
 

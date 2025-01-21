@@ -31,7 +31,7 @@ const Discount = () => {
        <div className='row-end-8 col-start-1 col-end-5  h-[57px] bg-[#fb2e86] flex justify-center items-center w-[100px] '>
        <div className={josefin1.className}><button className='flex items-center justify-center text-white bg-[#fb2e86] '>Shop Now</button></div>
       </div>
-      <div className='row-start-3 row-end-8 col-start-4 col-end-6 smhidden'><img src='GiantSofa.svg'/></div>
+      <div className='row-start-3 row-end-8 col-start-4 col-end-6 smhidden'><img src='GiantSofa.svg' alt="img"/></div>
     </div>
     </div>
   )
