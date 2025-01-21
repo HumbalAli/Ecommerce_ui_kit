@@ -11,7 +11,7 @@ import Section3 from '@/components/Section3/Section3'
 import Section4 from '@/components/section4/Section4'
 import TopCategory from '@/components/topCategory/TopCategory'
 import Treanding from '@/components/TrendingProd/Treanding'
-import ProductDetails from './Products/[id]/page'
+import ProductDetails from './Products/page'
 
 const page = () => {
   return (

@@ -20,7 +20,7 @@ const Header = () => {
      <div className='flex items-center justify-between gap-1'> 
       <div className={lato1.className}><div className='text-[#FB2E86]'>Home</div></div><img src='pink-arrow.svg' alt='arrow down'/> </div>
       <div className={lato1.className}>Pages</div>
-      <div className={lato1.className}>Products</div>
+      <div className={lato1.className}><Link href='/Products'>Products</Link></div>
       <div className={lato1.className}><Link href='/Blog'>Blog</Link></div>
       <div className={lato1.className}>Shop</div>
       <div className={lato1.className}>Contact</div>

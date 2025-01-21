@@ -7,6 +7,7 @@ const josefin1 = Josefin_Sans({
   weight: ["600"],
 });
 
+
 const Navbar = () => {
   return (
     <div className="bg-[#7E33E0] text-[#f1f1f1] w-full h-[44px] ">
@@ -57,7 +58,7 @@ const Navbar = () => {
             
            
             <div className="flex items-center justify-center pl-2">
-              <div><img src="/cart.svg" alt="cart"/></div>
+              <div><a href="/Cart"><img src="/cart.svg" alt="cart" /></a></div>
             </div>
             
           </div>

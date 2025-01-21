@@ -136,7 +136,7 @@ export default function CartPage() {
             asChild
             className="bg-[#FB2E86] px-4 rounded-[4px] text-white hover:bg-[#FB2E86]/90"
           >
-            <Link href="/shop">Update Cart</Link>
+            <Link href="/Products">Update Cart</Link>
           </Button>
         </div>
       </div>
