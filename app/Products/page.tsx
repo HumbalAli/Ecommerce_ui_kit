@@ -19,7 +19,7 @@ const sanity = sanityClient({
 
 interface Product {
   _id: string;
-  name: string; // Changed from 'title' to 'name'
+  name: string; 
   price: number;
   description: string;
   discountPercentage: number;
@@ -88,7 +88,7 @@ const ProductCards: React.FC = () => {
               {product.imageUrl ? (
                 <Image
                   src={product.imageUrl}
-                  alt={product.name} // Changed from 'title' to 'name'
+                  alt={product.name}
                   width={300}
                   height={200}
                   className="w-full h-48 object-cover rounded-md"
@@ -100,7 +100,7 @@ const ProductCards: React.FC = () => {
               )}
 
               <div className="mt-4 p-2">
-                <h2 className="text-lg font-semibold">{product.name}</h2> {/* Changed from 'title' to 'name' */}
+                <h2 className="text-lg font-semibold">{product.name}</h2> 
                 <p className="text-slate-800 mt-2 text-sm">
                   {product.description.length > 100
                     ? product.description.substring(0, 100) + "..."
