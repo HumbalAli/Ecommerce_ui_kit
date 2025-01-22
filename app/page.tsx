@@ -35,8 +35,7 @@ const page = () => {
   <Section4/>
   <br/>
   <Latestblog/>
-  <ProductDetails/>
-<Footer/>
+  <Footer/>
     </div>
   )
 }
